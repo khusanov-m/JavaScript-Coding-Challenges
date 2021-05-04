@@ -14,5 +14,3 @@ simple calculations*
 Includes solutions to the topics:
 *strict.js mode
 functions (arrow, ordinary)
-output methods ("", ``, '')
-loops (for, while)*
