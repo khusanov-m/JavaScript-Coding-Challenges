@@ -4,7 +4,7 @@ Process and progress of completing course
 **01 JS Fundamentals 1**
 
 Includes solutions to the challenges:
-*expressions (arrays; objects) | statements  () | conditions (if else; switch) | simple calculations (+; -; *; /; **; //; %)*
+*logic operators (||; &&;) | comparisons | statements (equations; arrays; objects) | conditions (if else; switch) | simple calculations (+; -; *; /; **; //; %)*
 
 **02 JS Fundamentals 2**
 
