@@ -20,3 +20,9 @@ strict.js mode | functions (arrow; ordinary) | output methods (""; ``; '') | loo
 **03 Developer-Skills**
 
 Include only one challenge to solve with developer skills such as dividing problem into sub-problems, use consoole to see output, algorithm and pseidocode
+
+
+
+**04 Guess-My-Number**
+
+Simple game conducted with help of JS Dom manipulation to guess number between 0 to 20
