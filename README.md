@@ -31,3 +31,8 @@ Simple game conducted with help of JS Dom manipulation to guess number between 0
 **05 Modal**
 
 Basic opening and closing modal window
+
+
+**06 Dice-Game**
+
+Ordinary game for 2-players. The player who will first earn 100 points win. However if dice equals to 1 player switch to the next one. 
