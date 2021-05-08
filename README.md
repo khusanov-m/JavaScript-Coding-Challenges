@@ -26,3 +26,8 @@ Include only one challenge to solve with developer skills such as dividing probl
 **04 Guess-My-Number**
 
 Simple game conducted with help of JS Dom manipulation to guess number between 0 to 20. Visually designed as pixel game.
+
+
+**05 Modal**
+
+Basic opening and closing modal window
