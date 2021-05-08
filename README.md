@@ -12,3 +12,7 @@ logic operators (||; &&;) | comparisons | statements (equations; arrays; objects
 Includes solutions to the challenges:
 
 strict.js mode | functions (arrow; ordinary) | output methods (""; ``; '') | loops (for; while)
+
+**03 Developer-Skills**
+
+Include only one challenge to solve with developer skills such as dividing problem into sub-problems, use consoole to see output, algorithm and pseidocode
