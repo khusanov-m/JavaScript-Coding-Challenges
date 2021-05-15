@@ -25,7 +25,7 @@ Include only one challenge to solve with developer skills such as dividing probl
 
 **04 Guess-My-Number**
 
-Demo - https://play-guess-number.netlify.app/
+[Demo](https://play-guess-number.netlify.app/)
 
 Simple game conducted with help of JS Dom manipulation to guess number between 0 to 20. Visually designed as pixel game.
 
@@ -37,6 +37,6 @@ Basic opening and closing modal window
 
 **06 Dice-Game**
 
-Demo - https://dice-mini-game.netlify.app/
+[Demo](https://dice-mini-game.netlify.app/)
 
 Ordinary game for 2-players. The player who will first earn 100 points win. However if dice equals to 1 player switch to the next one. 
