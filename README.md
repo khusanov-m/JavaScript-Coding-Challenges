@@ -2,6 +2,7 @@
 Process and progress of completing course
 
 **01 JS Fundamentals 1**
+---
 
 Includes solutions to the challenges:
 
