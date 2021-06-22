@@ -34,46 +34,47 @@ BMI (28.3) is higher than John's (23.9)!"
 
 /* Solution to the Challenge #1 and #2 */
 
-// console.log("BMI (Body Mass Index)");
+console.log("---- Challenge #1 and #2 ----");
+console.log("BMI (Body Mass Index)");
 
-// // Data 1
-// let markHeight = 1.69,
-//   markWeight = 78,
-//   johnHeight = 1.95,
-//   johnWeight = 92;
+// Data 1
+let markHeight = 1.69,
+  markWeight = 78,
+  johnHeight = 1.95,
+  johnWeight = 92;
 
-// let markBmi = (markWeight / markHeight ** 2).toFixed(2),
-//   johnBmi = (johnWeight / johnHeight ** 2).toFixed(2);
+let markBmi = (markWeight / markHeight ** 2).toFixed(2),
+  johnBmi = (johnWeight / johnHeight ** 2).toFixed(2);
 
-// console.log("Marks BMI = " + markBmi);
-// console.log("Johns BMI = " + johnBmi);
+console.log("Marks BMI = " + markBmi);
+console.log("Johns BMI = " + johnBmi);
 
-// if (markBmi > johnBmi)
-//   console.log(
-//     "Mark (" + markBmi + ") has a higher BMI than John (" + johnBmi + ")"
-//   );
-// else
-//   console.log(
-//     "John (" + johnBmi + ") has a higher BMI than Mark (" + markBmi + ")"
-//   );
+if (markBmi > johnBmi)
+  console.log(
+    "Mark (" + markBmi + ") has a higher BMI than John (" + johnBmi + ")"
+  );
+else
+  console.log(
+    "John (" + johnBmi + ") has a higher BMI than Mark (" + markBmi + ")"
+  );
 
-// // Data 2
-// (markHeight = 1.88), (markWeight = 95), (johnHeight = 1.76), (johnWeight = 85);
+// Data 2
+(markHeight = 1.88), (markWeight = 95), (johnHeight = 1.76), (johnWeight = 85);
 
-// markBmi = (markWeight / markHeight ** 2).toFixed(2);
-// johnBmi = (johnWeight / johnHeight ** 2).toFixed(2);
+markBmi = (markWeight / markHeight ** 2).toFixed(2);
+johnBmi = (johnWeight / johnHeight ** 2).toFixed(2);
 
-// console.log("Marks BMI = " + markBmi);
-// console.log("Johns BMI = " + johnBmi);
+console.log("Marks BMI = " + markBmi);
+console.log("Johns BMI = " + johnBmi);
 
-// if (markBmi > johnBmi)
-//   console.log(
-//     "Mark (" + markBmi + ") has a higher BMI than John (" + johnBmi + ")"
-//   );
-// else
-//   console.log(
-//     "John (" + johnBmi + ") has a higher BMI than Mark (" + markBmi + ")"
-//   );
+if (markBmi > johnBmi)
+  console.log(
+    "Mark (" + markBmi + ") has a higher BMI than John (" + johnBmi + ")"
+  );
+else
+  console.log(
+    "John (" + johnBmi + ") has a higher BMI than Mark (" + markBmi + ")"
+  );
 
 /* Coding Challenge #3
 
@@ -101,59 +102,61 @@ Test data:
 
 /* Solution to the Challenge #3 */
 
-// // Data 1
-// let dolphins = (96 + 108 + 89) / 3,
-//   koalas = (88 + 91 + 110) / 3;
+console.log("---- Challenge #3 ----");
 
-// console.log(`Dolphins (${dolphins}), Koalas (${koalas})`);
+// Data 1
+let dolphins = (96 + 108 + 89) / 3,
+  koalas = (88 + 91 + 110) / 3;
 
-// if (koalas && dolphins >= 100) {
-//   if (dolphins > koalas) {
-//     console.log("Dolphins wins the trophy");
-//   } else if (dolphins < koalas) {
-//     console.log("Koalas wins the trophy");
-//   } else {
-//     console.log("Both wins the trophy");
-//   }
-// } else {
-//   console.log("No one wins the trophy");
-// }
+console.log(`Dolphins (${dolphins}), Koalas (${koalas})`);
 
-// // Data 2
-// dolphins = (97 + 112 + 101) / 3;
-// koalas = (109 + 95 + 123) / 3;
+if (koalas && dolphins >= 100) {
+  if (dolphins > koalas) {
+    console.log("Dolphins wins the trophy");
+  } else if (dolphins < koalas) {
+    console.log("Koalas wins the trophy");
+  } else {
+    console.log("Both wins the trophy");
+  }
+} else {
+  console.log("No one wins the trophy");
+}
 
-// console.log(`Dolphins (${dolphins}), Koalas (${koalas})`);
+// Data 2
+dolphins = (97 + 112 + 101) / 3;
+koalas = (109 + 95 + 123) / 3;
 
-// if (koalas && dolphins >= 100) {
-//   if (dolphins > koalas) {
-//     console.log("Dolphins wins the trophy");
-//   } else if (dolphins < koalas) {
-//     console.log("Koalas wins the trophy");
-//   } else {
-//     console.log("Both wins the trophy");
-//   }
-// } else {
-//   console.log("No one wins the trophy");
-// }
+console.log(`Dolphins (${dolphins}), Koalas (${koalas})`);
 
-// // Data 3
-// dolphins = (97 + 112 + 101) / 3;
-// koalas = (109 + 95 + 106) / 3;
+if (koalas && dolphins >= 100) {
+  if (dolphins > koalas) {
+    console.log("Dolphins wins the trophy");
+  } else if (dolphins < koalas) {
+    console.log("Koalas wins the trophy");
+  } else {
+    console.log("Both wins the trophy");
+  }
+} else {
+  console.log("No one wins the trophy");
+}
 
-// console.log(`Dolphins (${dolphins}), Koalas (${koalas})`);
+// Data 3
+dolphins = (97 + 112 + 101) / 3;
+koalas = (109 + 95 + 106) / 3;
 
-// if (koalas && dolphins >= 100) {
-//   if (dolphins > koalas) {
-//     console.log("Dolphins wins the trophy");
-//   } else if (dolphins < koalas) {
-//     console.log("Koalas wins the trophy");
-//   } else {
-//     console.log("Both wins the trophy");
-//   }
-// } else {
-//   console.log("No one wins the trophy");
-// }
+console.log(`Dolphins (${dolphins}), Koalas (${koalas})`);
+
+if (koalas && dolphins >= 100) {
+  if (dolphins > koalas) {
+    console.log("Dolphins wins the trophy");
+  } else if (dolphins < koalas) {
+    console.log("Koalas wins the trophy");
+  } else {
+    console.log("Both wins the trophy");
+  }
+} else {
+  console.log("No one wins the trophy");
+}
 
 /* Coding Challenge #4
 
@@ -180,23 +183,31 @@ Hints:
 
 /* Solution to the Challenge #4 */
 
-// // Data 1
+console.log("---- Challenge #4 ----");
 
-// let bill = 275;
-// let tip = 50<=bill<=300 ? bill * 0.15 : bill * 0.2 ;
+// Data 1
 
-// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
+let bill = 275;
+let tip = 50 <= bill <= 300 ? bill * 0.15 : bill * 0.2;
 
-// // Data 2
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+);
 
-// bill = 40;
-// tip = 50<=bill && bill<=300 ? bill * 0.15 : bill * 0.2 ;
+// Data 2
 
-// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
+bill = 40;
+tip = 50 <= bill && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
-// // Data 3
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+);
 
-// bill = 430;
-// tip = 50<=bill && bill<=300 ? bill * 0.15 : bill * 0.2 ;
+// Data 3
 
-// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
+bill = 430;
+tip = 50 <= bill && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+);
